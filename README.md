@@ -1,21 +1,129 @@
 # Personal Portfolio — Jarin Tasnim Sreya
 
-A four-page academic portfolio for CSE443 Web Computing. HTML5, custom CSS, JavaScript, jQuery 3.7.1 and AJAX (local JSON). No build or database required.
+A responsive personal portfolio website showcasing my
+education, technical skills, academic projects, and
+interests in cybersecurity, networking, and technology.
 
-## Run locally
-Open a terminal in this folder and run `python -m http.server 8000` (or `py -m http.server 8000` on Windows). Open http://localhost:8000 in a browser. Stop with Ctrl+C. Opening index.html directly works for basic navigation but AJAX may be blocked by browser security.
+Developed as part of the CSE443 Web Computing course
+at Daffodil International University (DIU).
 
-## Publish
-Create a GitHub repository named `portfolio`, upload the **contents** of this folder (index.html must be at repository root), then Settings > Pages > Deploy from a branch > main > / (root). Use the actual published URL in the report.
+## Live Website
 
-## Features to verify yourself
-- All four navigation links, images, external links and mobile layout.
-- Projects: load/hide details; Network tab should show projects.json HTTP 200.
-- Contact: empty fields, invalid email, whitespace-only name, short message, valid submission. No email is sent.
-- Repeat in Chrome and Firefox, capture your own screenshots and record actual observations.
+[Visit My Portfolio](https://sreya-a.github.io/personal-portfolio/)
 
-## Academic notes
-Network and compiler images come from archived group coursework; the blood bank image comes from an archived dashboard photo. PharmaSync diagram is conceptual, not a screenshot. Group roles are not claimed. No old PHP files or credentials are published. Confirm descriptions and revise the code/content yourself in accordance with course rules on assistance. No certificates or unconfirmed education details are invented.
+## Technologies Used
 
-## Code guide
-`index.html`, `about.html`, `projects.html`, `contact.html`: semantic HTML and common navigation. `css/style.css`: shared layout and responsive media query. `js/script.js`: jQuery menu, AJAX details and plain JS form validation. `data/projects.json`: project detail records. jQuery is a third-party MIT-licensed library; its license header is retained.
+- HTML5
+- CSS3
+- JavaScript
+- jQuery 3.7.1
+- AJAX
+- JSON
+- GitHub Pages
+
+## Website Pages
+
+| Page | Description |
+| --- | --- |
+| Home | Personal introduction and overview |
+| About | Education, technical skills, and interests |
+| Projects | Academic projects and interactive details |
+| Contact | Contact information and validated contact form |
+
+## Key Features
+
+- Responsive design for desktop and mobile devices
+- Semantic HTML5 structure
+- Custom CSS styling
+- Interactive navigation using jQuery
+- Dynamic project details loaded through AJAX
+- JSON-based project data
+- JavaScript contact form validation
+- HTTPS-enabled hosting through GitHub Pages
+
+## Featured Projects
+
+- PharmaSync — Offline-First Inventory and POS
+- Computer Networking Project
+- Compiler Design Project
+- Blood Bank Management System
+
+## Project Structure
+
+```text
+personal-portfolio/
+├── css/
+│   └── style.css
+├── data/
+│   └── projects.json
+├── images/
+│   ├── blood.jpg
+│   ├── compiler.jpg
+│   ├── network.jpg
+│   └── profile.jpg
+├── js/
+│   ├── jquery.min.js
+│   └── script.js
+├── .nojekyll
+├── index.html
+├── about.html
+├── projects.html
+├── contact.html
+└── README.md
+```
+
+## Run Locally
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Sreya-a/personal-portfolio.git
+cd personal-portfolio
+```
+
+Start a local HTTP server:
+
+```bash
+python -m http.server 8000
+```
+
+Open http://localhost:8000 in your browser.
+
+A local HTTP server is recommended for AJAX functionality.
+
+## Deployment
+
+The website is hosted using GitHub Pages.
+
+- Branch: main
+- Source: / (root)
+- Protocol: HTTPS
+
+## Academic Information
+
+- University: Daffodil International University
+- Department: Computer Science and Engineering
+- Course: CSE443 — Web Computing
+- Project: Personal Portfolio Website
+
+## Academic Credits
+
+Networking and compiler project images are from
+archived group coursework. The blood bank image is
+from an archived dashboard photo. The PharmaSync
+diagram is a conceptual representation.
+
+Group coursework is presented without claiming
+sole authorship.
+
+The jQuery library is distributed under the MIT License.
+
+## Author
+
+**Jarin Tasnim Sreya**
+
+Computer Science and Engineering Student
+
+[GitHub Profile](https://github.com/Sreya-a)
+
+[Personal Portfolio](https://sreya-a.github.io/personal-portfolio/)
