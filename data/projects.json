@@ -1,0 +1,40 @@
+[
+  {
+    "id": "pharmasync",
+    "title": "PharmaSync",
+    "category": "Software architecture \u00b7 2026",
+    "description": "Offline-first inventory and POS for pharmacy chains.",
+    "tech": "Java, Maven, H2, PostgreSQL",
+    "details": "The project explores separate HQ and branch services, local inventory operations and synchronization when connectivity returns."
+  },
+  {
+    "id": "network",
+    "title": "Small Business Office Network",
+    "category": "Computer Networks Lab \u00b7 Group project \u00b7 2025",
+    "description": "A simulated retail office network with separate departmental subnets.",
+    "tech": "Cisco Packet Tracer, TCP/IP, DHCP, DNS, NAT",
+    "details": "The group project covers departmental subnetting, static routing, DHCP, DNS, NAT and wireless connectivity in a simulated office network.",
+    "image": "network.jpg",
+    "alt": "Network topology from the group lab report"
+  },
+  {
+    "id": "blood",
+    "title": "Blood Bank Management System",
+    "category": "Database and web development \u00b7 2025",
+    "description": "An academic application for managing donors, blood stock and donation records.",
+    "tech": "PHP, MySQL, HTML, CSS, Bootstrap",
+    "details": "The academic application includes donor registration, inventory management, search and a dashboard for monitoring blood stock and donation records.",
+    "image": "blood.jpg",
+    "alt": "Archived photograph of the blood bank dashboard"
+  },
+  {
+    "id": "compiler",
+    "title": "Handling Comments and Basic Syntax Validation",
+    "category": "Compiler Design Lab \u00b7 Group project",
+    "description": "A Java-based educational tool for basic source code analysis.",
+    "tech": "Java, Swing",
+    "details": "The group project explores parentheses checking, arithmetic validation, comment handling and line counting.",
+    "image": "compiler.jpg",
+    "alt": "Interface screenshot from the compiler design group presentation"
+  }
+]

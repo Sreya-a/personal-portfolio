@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Jarin Tasnim Sreya</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header class="site-header"><div class="container header-inner">
+        <a class="brand" href="index.html">Sreya<span>.</span></a>
+        <button id="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">Menu</button>
+        <nav id="main-nav" aria-label="Main navigation"><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="projects.html">Projects</a></li><li><a href="contact.html" aria-current="page">Contact</a></li></ul></nav>
+    </div></header>
+    <main class="container">
+        <section class="page-intro"><p class="eyebrow">GET IN TOUCH</p><h1>Contact me</h1><p class="lead">Open to learning opportunities, academic discussions and professional connections.</p></section>
+        <div class="contact-layout section"><aside><h2>Let's connect</h2>
+<a class="contact-link" href="mailto:sreya23105101150@diu.edu.bd"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285f4" d="M2 6h4v14H2z"/><path fill="#34a853" d="M18 6h4v14h-4z"/><path fill="#ea4335" d="M2 5l4-2 6 5 6-5 4 2v5l-10 7L2 10z"/><path fill="#fbbc04" d="M18 3l4 2v5l-4 3z"/></svg><span><strong>Email</strong><small>sreya23105101150@diu.edu.bd</small></span></a>
+<a class="contact-link" href="https://www.linkedin.com/in/jarin-tasnim-sreya-098833294/"><svg viewBox="0 0 24 24" aria-hidden="true"><rect width="24" height="24" rx="3" fill="#0a66c2"/><text x="12" y="18" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold" fill="white">in</text></svg><span><strong>LinkedIn</strong><small>Connect with me professionally</small></span></a>
+<a class="contact-link" href="https://github.com/Sreya-a"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#24292f" d="M12 .8a11.2 11.2 0 0 0-3.54 21.83c.56.1.77-.24.77-.54v-2.1c-3.12.68-3.78-1.33-3.78-1.33-.51-1.3-1.25-1.64-1.25-1.64-1.02-.7.08-.69.08-.69 1.13.08 1.72 1.16 1.72 1.16 1 .72 2.45.55 3.23.27.1-.73.39-1.23.71-1.51-2.49-.28-5.1-1.24-5.1-5.54 0-1.23.44-2.23 1.15-3.01-.12-.28-.5-1.43.11-2.97 0 0 .94-.3 3.08 1.15a10.7 10.7 0 0 1 5.6 0c2.14-1.45 3.08-1.15 3.08-1.15.61 1.54.23 2.69.11 2.97.72.78 1.15 1.78 1.15 3.01 0 4.31-2.62 5.26-5.12 5.54.4.35.76 1.03.76 2.08v3.76c0 .3.2.65.77.54A11.2 11.2 0 0 0 12 .8z"/></svg><span><strong>GitHub</strong><small>Explore my repositories</small></span></a>
+<p class="note">Messages submitted here are processed by Formspree and forwarded to my email. Please do not include sensitive personal information.</p></aside>
+        <section class="panel"><h2>Write a message</h2><form id="contact-form" action="https://formspree.io/f/xkjreqaq" method="POST">
+            <label for="name">Full name</label><input id="name" name="name" type="text" required maxlength="100">
+            <label for="email">Email address</label><input id="email" name="email" type="email" required>
+            <fieldset><legend>Preferred reply method</legend><label class="choice"><input type="radio" name="reply" value="email" checked> Email</label><label class="choice"><input type="radio" name="reply" value="linkedin"> LinkedIn</label></fieldset>
+            <label for="subject">Subject</label><select id="subject" name="subject" required><option value="">Select a subject</option><option>Internship opportunity</option><option>Academic discussion</option><option>Project inquiry</option><option>Other</option></select>
+            <label for="message">Message</label><textarea id="message" name="message" rows="5" required minlength="10" maxlength="1000"></textarea>
+            <button class="button" type="submit">Submit</button><p id="form-status" role="status" aria-live="polite"></p>
+        </form></section></div>
+    </main>
+    <footer><div class="container footer-inner"><span>© 2026 Jarin Tasnim Sreya</span><div><a href="https://github.com/Sreya-a">GitHub</a> · <a href="https://www.linkedin.com/in/jarin-tasnim-sreya-098833294/">LinkedIn</a></div></div></footer>
+</body>
+</html>
